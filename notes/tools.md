@@ -11,7 +11,7 @@ Examples:
 az login
 az group create --name myRG --location eastus
 az vm create --resource-group myRG --name myVM --image UbuntuLTS
-
+```
 
 2. Terraform (IaC)
 An open-source Infrastructure as Code tool to provision Azure resources declaratively.
