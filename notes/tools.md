@@ -46,7 +46,8 @@ Native support in Azure
 Tooling integration in VS Code
 
 Example:
-```resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
+```
+resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   name: 'mystorageacct'
   location: 'eastus'
   sku: {
