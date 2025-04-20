@@ -7,7 +7,7 @@ This document outlines tools I’ve explored for managing Azure infrastructure a
 Command-line interface for managing Azure resources via terminal.
 
 Examples:
-bash
+```bash
 az login
 az group create --name myRG --location eastus
 az vm create --resource-group myRG --name myVM --image UbuntuLTS
@@ -22,7 +22,7 @@ Supports full lifecycle (plan, apply, destroy)
 Compatible with CAF Landing Zone templates
 
 Sample Terraform Code:
-provider "azurerm" {
+```provider "azurerm" {
   features = {}
 }
 
