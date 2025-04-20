@@ -8,11 +8,11 @@ Project Structure
 
 ```bash
 azure-landing-zone-notes/
-├── README.md               👉 Project overview & summary
+├── README.md               Project overview and summary
 ├── notes/
-│   ├── azure-basic.md      👉 Notes on core Azure services and architecture
-│   ├── landing-zone.md     👉 Landing Zone concept, governance, and examples
-│   ├── tools.md            👉 Tools for automation: Terraform, Bicep, Azure CLI, etc.
-│   └── reference.md        👉 Collection of official documentation and tutorials
-├── assets/                 👉 Diagrams, flowcharts, and screenshots
+│   ├── azure-basic.md      Notes on core Azure services and architecture
+│   ├── landing-zone.md     Landing Zone concept, governance, and examples
+│   ├── tools.md            Tools: Terraform, Bicep, Azure CLI, etc.
+│   └── reference.md        Collection of official documentation and tutorials
+├── assets/                 Diagrams, flowcharts, and screenshots
 │   └── Azure_Landing_Zone_Arc.png
