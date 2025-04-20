@@ -30,7 +30,7 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "East US"
 }
-
+```
 Use Cases:
 Deploy full Landing Zones with consistency
 Integrate with CI/CD (GitHub Actions, Azure DevOps)
@@ -46,7 +46,7 @@ Native support in Azure
 Tooling integration in VS Code
 
 Example:
-resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
+```resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   name: 'mystorageacct'
   location: 'eastus'
   sku: {
@@ -54,7 +54,7 @@ resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   }
   kind: 'StorageV2'
 }
-
+```
 4. Azure Resource Manager (ARM)
 The native JSON-based infrastructure language for Azure.
 
